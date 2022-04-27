@@ -29,41 +29,39 @@ class _ImageLabelingPageState extends State<ImageLabelingPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text("test"));
-    // return InputCameraView(
-    //   cameraDefault: InputCameraType.rear,
-    //   // resolutionPreset: ResolutionPreset.high,
-    //   title: 'Image Labeling',
-    //   onImage: _processLabeling,
-    //   overlay: Consumer<ImageLabelingState>(
-    //     builder: (_, state, __) {
-    //       if (state.isEmpty) {
-    //         return Container();
-    //       }
+    return InputCameraView(
+      cameraDefault: InputCameraType.rear,
+      title: 'Image Labeling',
+      onImage: _processLabeling,
+      overlay: Consumer<ImageLabelingState>(
+        builder: (_, state, __) {
+          if (state.isEmpty) {
+            return Container();
+          }
 
-    //       if (state.isProcessing && state.notFromLive) {
-    //         return Center(
-    //           child: Container(
-    //             width: 32,
-    //             height: 32,
-    //             child: CircularProgressIndicator(strokeWidth: 2),
-    //           ),
-    //         );
-    //       }
+          if (state.isProcessing && state.notFromLive) {
+            return Center(
+              child: Container(
+                width: 32,
+                height: 32,
+                child: CircularProgressIndicator(strokeWidth: 2),
+              ),
+            );
+          }
 
-    //       return Center(
-    //         child: Container(
-    //           padding: EdgeInsets.symmetric(vertical: 10, horizontal: 16),
-    //           child: Text(state.toString(), style: TextStyle(fontWeight: FontWeight.w500)),
-    //           decoration: BoxDecoration(
-    //             color: Colors.white.withOpacity(0.8),
-    //             borderRadius: BorderRadius.all(Radius.circular(4.0)),
-    //           ),
-    //         ),
-    //       );
-    //     },
-    //   ),
-    // );
+          return Center(
+            child: Container(
+              padding: EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+              child: Text(state.toString(), style: TextStyle(fontWeight: FontWeight.w500)),
+              decoration: BoxDecoration(
+                color: Colors.white.withOpacity(0.8),
+                borderRadius: BorderRadius.all(Radius.circular(4.0)),
+              ),
+            ),
+          );
+        },
+      ),
+    );
   }
 }
 
