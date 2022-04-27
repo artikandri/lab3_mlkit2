@@ -1,6 +1,6 @@
-# hello_world
+# Lab 3
 
-A new Flutter project.
+Mobile and Multimedia Lab 3 HW in PWr
 
 ## Getting Started
 
