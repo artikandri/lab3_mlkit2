@@ -48,8 +48,6 @@ class _ObjectDetectionPageState extends State<ObjectDetectionPage> {
           Size originalSize = state.size!;
           Size size = MediaQuery.of(context).size;
 
-          // if image source from gallery
-          // image display size is scaled to 360x360 with retaining aspect ratio
           if (state.notFromLive) {
             if (originalSize.aspectRatio > 1) {
               size = Size(360.0, 360.0 / originalSize.aspectRatio);
