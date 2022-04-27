@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "87209656722",
+    "project_id": "lab3ml-e6453",
+    "storage_bucket": "lab3ml-e6453.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87209656722:android:81bc41812cfde23519014b",
+        "android_client_info": {
+          "package_name": "com.argi.imagerecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87209656722-tf9151vbfl0hdvrjcgnalrbtmqmn48o9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGy8I_RLe1uPqk6jvR7catT5uf5arqyJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87209656722-tf9151vbfl0hdvrjcgnalrbtmqmn48o9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87209656722:android:3951787cd203adf019014b",
+        "android_client_info": {
+          "package_name": "com.argi.mlkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87209656722-tf9151vbfl0hdvrjcgnalrbtmqmn48o9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGy8I_RLe1uPqk6jvR7catT5uf5arqyJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87209656722-tf9151vbfl0hdvrjcgnalrbtmqmn48o9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
