@@ -29,7 +29,7 @@ class _ImageLabelingPageState extends State<ImageLabelingPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center(child: Text("test"));
     // return InputCameraView(
     //   cameraDefault: InputCameraType.rear,
     //   // resolutionPreset: ResolutionPreset.high,
